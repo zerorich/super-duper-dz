@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: rgba(243, 215, 183, 1);
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.header_nav{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.header-nav-div{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+}
+.header_a{
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 14.06px;
+    letter-spacing: 1px;
+    text-align: left;
+    color: rgba(51, 51, 51, 1);
+    text-decoration: none;
+}
+.header_a_container{
+    display: flex;
+    gap: 40px;
+}
+.header_main{
+    display: flex;
+    width: 92%;
+    margin: 0 auto;
+    gap: 216px;
+    padding-top: 130px;
+}
+.header_main_left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 464px;
+    height: 367px;
+}
+.header_main_left>h1{
+    font-family: Roboto;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 75px;
+    text-align: left;
+    color: rgba(0, 0, 0, 1);
+}
+.header_main_left>p{
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: rgba(0, 0, 0, 1);
+}
+.header_main_left>a{
+    width: 200px;
+    height: 51px;
+    top: 492px;
+    left: 50px;
+    padding:16px ;
+    gap: 10px;
+    border-radius: 100px ;
+    opacity: 0px;
+    background: rgba(10, 119, 95, 1);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18.75px;
+    letter-spacing: 1px;
+    text-align: center;    
+    color: rgba(255, 255, 255, 1);
+    text-decoration: none;
+}
+.img-header{
+    position: relative;
+    left: 31.9%;
+}
+.logo-header{
+    position: absolute;
+    top: 100px;
+    left: 51%;
+}
+section>h2{
+    font-family: Roboto;
+    font-size: 50px;
+    font-weight: 1000;
+    line-height: 58.59px;
+    text-align: center;
+    color: rgba(0, 0, 0, 1);
+}   
+section{
+    margin-top: 220px;
+    border-image: url(./assets/img/Rectangle.png);
+    width: 100%;
+    height: 160vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.our-collection-right-child{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+.our-collection-right{
+    display: flex;
+    gap: 117px;
+    align-items: center;
+}
+.our-collection-right-child>h3{
+    font-family: Roboto;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 56.25px;
+    text-align: left;
+    color: rgba(51, 51, 51, 1);
+}   
+.our-collection-right-child>p{
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 34px;
+    text-align: left;
+    color: rgba(51, 51, 51, 1);
+    width: 454.26px;
+    height: 68px;
+    top: 1196px;
+    left: 728.03px;
+    gap: 0px;
+    opacity: 0px;
+}
+.our-collection>div>img{
+    width: 451.25px;
+    height: 375px;
+    top: 2134px;
+    left: 825.3px;
+    gap: 0px;
+    opacity: 0px;
+}
+footer{
+    display: flex;
+    margin-top: 150px;
+    width: 100%;
+    height: 160px;
+    justify-content: space-between;
+    padding-left: 42px;
+    padding-right: 50px;
+    background-color: rgba(243, 215, 183, 1);
+    align-items: center;
+}
+footer>div{
+    display: flex;
+}
+footer>img{
+    width: 235px;
+    height: 24px;
+    top: 2660px;
+    left: 42px;
+    gap: 0px;
+    opacity: 0px;
+}
+.footer-div{
+    display: flex;
+    gap: 40px;
+}
+.footer-a-wrapper{
+    display: flex;
+    gap: 30px;
+}
+.our-collection-right>img:hover{
+    transform: scale(1.5);
+}
+.our-collection-right>img{
+    transition: transform 0.8s ease-in-out;
+}

@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: rgba(243, 215, 183, 1);
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.header_nav{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.header-nav-div{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+}
+.header_a{
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 14.06px;
+    letter-spacing: 1px;
+    text-align: left;
+    color: rgba(51, 51, 51, 1);
+    text-decoration: none;
+}
+.header_a_container{
+    display: flex;
+    gap: 40px;
+}
+.header_main{
+    display: flex;
+    width: 92%;
+    margin: 0 auto;
+    gap: 216px;
+    padding-top: 130px;
+}
+.header_main_left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 464px;
+    height: 367px;
+}
+.header_main_left>h1{
+    font-family: Roboto;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 75px;
+    text-align: left;
+    color: rgba(0, 0, 0, 1);
+}
+.header_main_left>p{
+    width: 372px;
+    height: 85.37px;
+    top: 334px;
+    left: 50px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: rgba(0, 0, 0, 1);
+}
+.header_main_left>a{
+    width: 200px;
+    height: 51px;
+    top: 492px;
+    left: 50px;
+    padding:16px ;
+    gap: 10px;
+    border-radius: 100px ;
+    opacity: 0px;
+    background: rgba(10, 119, 95, 1);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18.75px;
+    letter-spacing: 1px;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    text-decoration: none;
+}
+.img-header{
+    position: relative;
+    left: 41.9%;
+    width: 660px;
+    height: 390px;
+
+}
+.logo-header{
+    position: absolute;
+    top: 100px;
+    left: 54%;
+}
+.section1{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 318px;
+}
+.section1>div{
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+}
+.section1>div>h2{
+    font-family: Roboto;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56.25px;
+    text-align: left;   
+    color: rgba(0, 0, 0, 1);
+}
+.section1>div>p{
+    width: 646.39px;
+    height: 207.49px;
+    top: 1000px;
+    left: 740px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    color: rgba(51, 51, 51, 1);
+}
+.section2{
+    width: 100%;
+    height: 60vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 318px;
+    background-color: rgba(201, 155, 103, 1);
+}
+.section2>div>h2{
+    font-family: Roboto;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 58.59px;
+    text-align: left;
+    font-family: Roboto;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 58.59px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+}
+.section2>div>p{
+    width: 639px;
+    height: 150px;
+    top: 1708px;
+    left: 59px;
+    gap: 0px;
+    opacity: 0.8px;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+}
+.section2>img{
+    position: relative;
+    top: -150px;
+    left: 0;
+}
+footer{
+    display: flex;
+    width: 100%;
+    height: 160px;
+    justify-content: space-between;
+    padding-left: 42px;
+    padding-right: 50px;
+    background-color: rgba(243, 215, 183, 1);
+    align-items: center;
+}
+footer>div{
+    display: flex;
+}
+footer>img{
+    width: 235px;
+    height: 24px;
+    top: 2660px;
+    left: 42px;
+    gap: 0px;
+    opacity: 0px;
+}
+.footer-div{
+    display: flex;
+    gap: 40px;
+}
+.footer-a-wrapper{
+    display: flex;
+    gap: 30px;
+}
+.section2-child{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
